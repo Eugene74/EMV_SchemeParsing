@@ -16,7 +16,7 @@ public class Main {
         String logFilePath;
         String log1="A.log";
         String log2="B.log";
-        System.out.println("Выбирите файл логов: A.log - 1; B.log - 2");
+        System.out.println("Выбирите файл логов: A.log - 1; B.log - 2 . Введите цифру 1 или 2");
         Scanner scanner = new Scanner(System.in);
         String logFile = scanner.nextLine();
         if (logFile.equals("1")){logFilePath = log1;}else logFilePath = log2;
